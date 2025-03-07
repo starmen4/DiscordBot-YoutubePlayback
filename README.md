@@ -73,6 +73,10 @@ Verify: ffmpeg -version
 
 !queue     -> will show what is in the queue
 
+# For the noobs
 
+open CMD or Powershell, navigate to folder where bot is located, and type in 
 
+python .\DiscordBot+YoutubePlayer.py 
 
+Hit Enter\Return
