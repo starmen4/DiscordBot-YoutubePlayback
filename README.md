@@ -54,7 +54,7 @@ Verify: ffmpeg -version
 
 # Discord Bot Token 
 
-1. Go to Discord Developer Portal. <- https://discord.com/developers/applications
+1. Go to Discord Developer Portal. -> https://discord.com/developers/applications
 
 2. Create a new application, then a bot under "Bot" settings.
 
