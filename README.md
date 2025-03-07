@@ -24,7 +24,9 @@ Admin can control the volume of the bot so you don't have to rely on discord vol
 
 6. FFmpeg 		
 
-7. Discord Bot Token  
+7. Discord Bot Token
+
+8. For Linux users - PyNaCl  -> pip3 install PyNaCl    -> This is needed for Discord Voice Communication. 
 
 # FFmpeg install help 
 (Windows): Download FFmpeg from ffmpeg.org or a trusted build like gyan.dev (https://www.gyan.dev/ffmpeg/builds/) 
@@ -73,10 +75,46 @@ Verify: ffmpeg -version
 
 !queue     -> will show what is in the queue
 
-# For the noobs
+# For the Windows Peeps
 
 open CMD or Powershell, navigate to folder where bot is located, and type in 
 
 python .\DiscordBot+YoutubePlayer.py 
 
 Hit Enter\Return
+
+
+for a quick start script open notepad 
+
+copy and past, change the path to your actural path then save as .bat
+
+@echo off
+
+cd C:\path\to\DiscordBot-YoutubePlayback-main
+
+python DiscordBot+YoutubePlayer.py
+
+
+
+# For the Linux Peeps 
+
+python3 ./DiscordBot+YoutubePlayer.py
+
+
+For quick start script  open directory of bot, create file copy and past. 
+
+#!/bin/bash
+
+#Navigate to the bot's directory (adjust this path to your actual directory)
+
+cd /home/user/DiscordBot-YoutubePlayback-main/
+
+#Run the bot
+
+python3 ./DiscordBot+YoutubePlayer.py
+
+
+SAVE and set as exicutable. 
+
+You can then ether make a shortcut to your desktop or set it to run in terminal with ./start_bot.sh with out navigating to directory. i'll leave that up to you to figer out though :p 
+
