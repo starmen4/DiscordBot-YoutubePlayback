@@ -75,6 +75,12 @@ Verify: ffmpeg -version
 
 !queue     -> will show what is in the queue
 
+# quick play 
+
+The quick play buttons can be changed. 
+
+to do this, open Quick_play_files.txt in root directory of the bot and delete the line of the button you want to remove. Save, then in the bot click the button it used to be and re-assign it. 
+
 # For the Windows Peeps
 
 open CMD or Powershell, navigate to folder where bot is located, and type in 
